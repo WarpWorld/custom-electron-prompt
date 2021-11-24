@@ -91,7 +91,7 @@ select#data {
   display: flex;
   align-items: center;
   flex: 1;
-  padding-left: .5em;
+  padding-right: .25em;
   text-align: left;
 }
 
