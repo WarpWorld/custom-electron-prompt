@@ -70,13 +70,33 @@ select#data {
 }
 
 #ok {
-	background-color: #3879d9;
+  background-color: #3879d9;
 	color: white;
 }
 
 #cancel {
-	background-color: #ddd;
+  background-color: #ddd;
 	color: black;
+}
+
+/* MultiInput Field houses a label and an input */
+.multinput-field {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin: 0 0 1.2em;
+}
+
+.multinput-field label {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding-left: .5em;
+  text-align: left;
+}
+
+.multinput-field input#data {
+  margin: 0;
 }
 
 /* Counter mode */
